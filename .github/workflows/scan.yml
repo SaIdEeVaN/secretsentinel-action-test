@@ -1,0 +1,10 @@
+name: scan
+on: [push]
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: SaIdEeVaN/secretsentinel@main
