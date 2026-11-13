@@ -8,3 +8,5 @@ jobs:
         with:
           fetch-depth: 0
       - uses: SaIdEeVaN/secretsentinel@main
+        with:
+          mode: dir
